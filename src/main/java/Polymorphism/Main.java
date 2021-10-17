@@ -2,13 +2,22 @@ package Polymorphism;
 
 public class Main {
     public static void main(String[] args) {
-        Forest myForest =new Forest();
-        Forest myAnimuls =new Animuls();
-        Forest myDogs= new Dogs();
-        myForest.KindOfAnimuls();
-        myDogs.KindOfAnimuls();
-        myAnimuls.KindOfAnimuls();
+        Cars myForest = new Cars();
+        Cars mySaipa = new Saipa();
+        Cars myMotors = new Motors();
+        myForest.derives();
+        mySaipa.derives();
+        myMotors.derives();
 
 
     }
 }
+
+
+
+
+
+
+
+
+
