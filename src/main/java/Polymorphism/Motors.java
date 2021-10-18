@@ -1,9 +1,10 @@
 package Polymorphism;
 
 public class Motors extends Cars {
-    public void derives(){
+    public Object derives(){
         System.out.println("KindOf derives: z2");
 
+        return null;
     }
 
 }

@@ -1,8 +1,9 @@
 package Polymorphism;
 
  class Cars{
-     public void  derives() {
+     public Object derives() {
    System.out.println("there are kinds of derives");
-    }
+         return false;
+     }
  }
 
