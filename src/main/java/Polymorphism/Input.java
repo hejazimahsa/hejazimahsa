@@ -1,7 +1,7 @@
 package Polymorphism;
 import java.util.Scanner;
 
-    public class Input extends Main {
+    public class Input {
 
         public static int vars;
 
