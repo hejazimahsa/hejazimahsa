@@ -1,4 +1,4 @@
-package Polymorphism;
+package main.java.polymorphism;
 import java.util.Scanner;
 
     public class Input {
