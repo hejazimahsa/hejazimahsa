@@ -33,10 +33,12 @@ commit ;
 
 
 select * from motors where id= 1 ;
----------------------
+--------------condition -----------------------------
 
 
-
+SELECT 'name' FROM saipa WHERE id NOT IN (SELECT name FROM saipa WHERE 1=1);
+SELECT 'color' FROM cars WHERE id NOT IN (SELECT color FROM cars WHERE 2=2);
+SELECT 'company' FROM motors WHERE id NOT IN (SELECT company FROM motors WHERE 3=3);
 
 
 
